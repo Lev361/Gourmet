@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+	<link rel="stylesheet" href="css/style.css"/>
+	<title>Coffee Shop</title>
+</head>
+<body>
+
+	<header class="header">
+		<a href="#" class="logo">
+			<h1>Gourmet</h1>
+		</a>
+
+		<nav class="navbar">
+			<a href="#home">Home</a>
+			<a href="#about">Sobre</a>
+			<a href="#menu">Menu</a>
+			<a href="#products">Produtos</a>
+			<a href="#review">review</a>
+			<a href="#contact">Contato</a>
+			<a href="#blogs">Blog</a>
+		</nav>
+
+		<div class="icons">
+			<div class="fas fa-search" id="search_btn"></div>
+			<div class="fas fa-shopping-cart" id="cart_btn"></div>
+			<div class="fas fa-bars" id="menu_btn"></div>
+		</div>
+
+		<div class="search-form">
+			<input type="search" id="search_box" placeholder="Search here...">
+			<label for="search_box" class="fas fa-search"></label>
+		</div>
+
+		<div class="cart-items-container">
+			<div class="cart-item">
+				<span class="fas fa-times"></span>
+				<img src="images/cart-item-1.png" alt="">
+				<div class="content">
+					<h3>cart item 01</h3>
+					<div class="price">R$19.00</div>
+				</div>
+			</div>
+
+			<div class="cart-item">
+				<span class="fas fa-times"></span>
+				<img src="images/cart-item-2.png" alt="">
+				<div class="content">
+					<h3>cart item 02</h3>
+					<div class="price">R$19.00</div>
+				</div>
+			</div>
+
+			<div class="cart-item">
+				<span class="fas fa-times"></span>
+				<img src="images/cart-item-3.png" alt="">
+				<div class="content">
+					<h3>cart item 03</h3>
+					<div class="price">R$19.00</div>
+				</div>
+			</div>
+
+			<div class="cart-item">
+				<span class="fas fa-times"></span>
+				<img src="images/cart-item-4.png" alt="">
+				<div class="content">
+					<h3>cart item 04</h3>
+					<div class="price">R$19.00</div>
+				</div>
+			</div>
+			<a href="#" class="btn">Checkout now</a>
+		</div>
+
+	</header>
+
+	<section  class="home">
+
+		<div class="content">
+			<h3>Uma boa dose de café para alegrar o seu dia</h3>
+			<p>Um bom café faz toda diferença pela manhã</p>
+			<a href="#" class="btn">Pegue o seu agora</a>
+		</div>
+
+	</section>
+
+	<section class="about" id="about">
+		<h1 class="heading"><span>Sobre</span> nos </h1>
+
+		<div class="row">
+			<div class="image">
+				<img src="images/about-img.jpeg" alt>
+			</div>
+
+			<div class="content">
+				<h3>O que torna nosso café especial?</h3>
+				<p>A verdade é que, diferente do café tradicional, o café gourmet oferece mesmo inúmeras possibilidades, chegando para ampliar os horizontes dos consumidores amantes da bebida e de paladar mais exigentes e sofisticados.</p>
+				<a href="#" class="btn">Ler mais</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- menu section starts -->
+	<section class="menu" id="menu">
+		<h1 class="heading"> Nosso <span>menu</span></h1>
+
+		<div class="box-container">
+			<div class="box">
+				<img src="images/menu-1.png" alt="">
+				<h3>Baunilha</h3>
+				<div class="price">R$15.99 <span>20.99</span></div>
+				<a href="#" class="btn">Adicionar ao carrinho</a>
+			</div>
+
+			<div class="box">
+				<img src="images/menu-2.png" alt="">
+				<h3>Chocolate</h3>
+				<div class="price">R$15.99 <span>20.99</span></div>
+				<a href="#" class="btn">Adicionar ao carrinho</a>
+			</div>
+
+			<div class="box">
+				<img src="images/menu-3.png" alt="">
+				<h3>Canela</h3>
+				<div class="price">R$15.99 <span>20.99</span></div>
+				<a href="#" class="btn">Adicionar ao carrinho</a>
+			</div>
+
+			<div class="box">
+				<img src="images/menu-4.png" alt="">
+				<h3>Caramelizado</h3>
+				<div class="price">R$15.99 <span>20.99</span></div>
+				<a href="#" class="btn">Adicionar ao carrinho</a>
+			</div>
+
+			<div class="box">
+				<img src="images/menu-5.png" alt="">
+				<h3>Chocolate Branco</h3>
+				<div class="price">R$15.99 <span>20.99</span></div>
+				<a href="#" class="btn">Adicionar ao carrinho</a>
+			</div>
+
+			<div class="box">
+				<img src="images/menu-6.png" alt="">
+				<h3>Raspas de limão</h3>
+				<div class="price">R$15.99 <span>20.99</span></div>
+				<a href="#" class="btn">Adicionar ao carrinho</a>
+			</div>
+		</div>
+	</section>
+	<!-- menu section ends -->
+
+	<section class="products" id="products">
+		<h1 class="heading"> Nossos <span>produtos</span></h1>
+
+		<div class="box-container">
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="image">
+					<img src="images/product-1.png" alt="">
+				</div>
+				<div class="content">
+					<h3>Chapada Diamantina</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<div class="price">R$49.99 <span>60.99</span></div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="image">
+					<img src="images/product-2.png" alt="">
+				</div>
+				<div class="content">
+					<h3>Serra da Canastra</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<div class="price">R$49.99 <span>60.99</span></div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="icons">
+					<a href="#" class="fas fa-shopping-cart"></a>
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+				</div>
+				<div class="image">
+					<img src="images/product-3.png" alt="">
+				</div>
+				<div class="content">
+					<h3>Região Vulcânica</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<div class="price">R$49.99 <span>60.99</span></div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<!-- review sections starts -->
+	<section class="review" id="review">
+		<h1 class="heading">Clientes <span>review</span></h1>
+		<div class="box-container">
+			<div class="box">
+				<img src="images/quote-img.png" alt="" class="quote">
+				<p>Aqui em casa não conhecíamos estes cafés aromatizados. Adoramos este de chocolate com avelã. Gostei tanto puro quanto com leite. Não vejo a hora de experimentar também os outros. Com certeza seremos fregueses!</p>
+				<img src="images/pic-1.png" class="user" alt="">
+				<h3>João</h3>
+				<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+			</div><!--box-->
+			<div class="box">
+				<img src="images/quote-img.png" alt="" class="quote">
+				<p>Os cafés da Gourmet são uma experiência sensorial sem igual. Meu preferido é o de chocolate trufado, mas o de chocolate com avelã também é muito bom. Espero que façam mais sabores em pacotes assim, tais quais os em cápsulas.</p>
+				<img src="images/pic-2.png" class="user" alt="">
+				<h3>Andresa</h3>
+				<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+			</div><!--box-->
+			<div class="box">
+				<img src="images/quote-img.png" alt="" class="quote">
+				<p>Café encorpado, primeiro gole senti sabor leve do chocolate e depois da avelã, muito gostoso, cremosidade no ponto, amei, recomendo.Depois vou provar o trufado.</p>
+				<img src="images/pic-3.png" class="user" alt="">
+				<h3>Pedro</h3>
+				<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+			</div><!--box-->
+		</div><!--box-container-->
+	</section>
+	<!-- review sections ends -->
+
+	<!-- contact section starts -->
+	<section class="contact" id="contact">
+		<h1 class="heading"><span>Entre em</span> contato</h1>
+		<div class="row">
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30597749585!2d-74.25986848532534!3d40.697149412066516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNova%20Iorque%2C%20NY%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1660265407232!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+			<form action="">
+				<h3>Entrar em contato</h3>
+				<div class="inputBox">
+					<span class="fas fa-user"></span>
+					<input type="text" placeholder="Seu nome">
+				</div>
+				<div class="inputBox">
+					<span class="fas fa-envelope"></span>
+					<input type="email" placeholder="Seu email">
+				</div>
+				<div class="inputBox">
+					<span class="fas fa-phone"></span>
+					<input type="number" placeholder="Número">
+				</div>
+				<input type="submit" value="contact now" class="btn">
+			</form>
+		</div>
+	</section>
+	<!-- contact section ends -->
+
+	<!-- blog section starts -->
+	<section class="blogs" id="blogs">
+		<h1 class="heading">Nosso <span>Blogs</span></h1>
+		<div class="box-container">
+			<div class="box">
+				<div class="image">
+					<img src="images/blog-1.jpeg" alt="">
+				</div>
+				<div class="content">
+					<a href="#" class="title">Café saboroso e refrescante</a>
+					<span>by Levi / 11 de Agosto, 2022</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor id justo id porta. Suspendisse augue felis, hendrerit quis porttitor ut, cursus in diam. Nullam faucibus laoreet dictum</p>
+					<a href="#" class="btn">Ler mais</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="images/blog-2.jpeg" alt="">
+				</div>
+				<div class="content">
+					<a href="#" class="title">Café saboroso e refrescante</a>
+					<span>by Levi / 11 de Agosto, 2022</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor id justo id porta. Suspendisse augue felis, hendrerit quis porttitor ut, cursus in diam. Nullam faucibus laoreet dictum</p>
+					<a href="#" class="btn">Ler mais</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="images/blog-3.jpeg" alt="">
+				</div>
+				<div class="content">
+					<a href="#" class="title">Café saboroso e refrescante</a>
+					<span>by Levi / 11 de Agosto, 2022</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor id justo id porta. Suspendisse augue felis, hendrerit quis porttitor ut, cursus in diam. Nullam faucibus laoreet dictum</p>
+					<a href="#" class="btn">Ler mais</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- blog section ends -->
+
+	<!-- footer section starts -->
+	<footer class="footer">
+		<div class="share">
+			<a href="#" class="fab fa-facebook-f"></a>
+			<a href="#" class="fab fa-twitter"></a>
+			<a href="#" class="fab fa-instagram"></a>
+			<a href="#" class="fab fa-linkedin"></a>
+			<a href="#" class="fab fa-pinterest"></a>
+		</div>
+
+		<div class="links">
+			<a href="#">home</a>
+			<a href="#">about</a>
+			<a href="#">menu</a>
+			<a href="#">products</a>
+			<a href="#">review</a>
+			<a href="#">contact</a>
+			<a href="#">blogs</a>
+		</div>
+		<div class="credit" id="credit">created by <span>Levi Maycon</span> | all rights reserved</div>
+	</footer>
+	<!-- footer section ends -->
+	
+	<script src="js/index.js"></script>
+</body>
+</html>
